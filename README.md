@@ -41,12 +41,13 @@ else
 end
 ```
 ## Output:
-<img width="1257" height="530" alt="image" src="https://github.com/user-attachments/assets/9168c78c-3675-45dd-94ba-cc4d7ef20a6a" />
+
+<img width="1053" height="985" alt="image" src="https://github.com/user-attachments/assets/24191fc3-ac73-4201-96dd-624d62738f40" />
 
 ## Result:
-Thus the polar plot for the given transfer function was drawn and verified using MATLAB. <br>
-Gain margin = -23.10 db<br>
-Phase Margin = -50.48 degree<br>
-Gain crossover frequency = 0.9534 rad/s<br>
-Phase crossover frequency =0.3162 rad/s <br>
-The system is  ------------
+Thus the polar plot for the given transfer function was drawn and verified using MATLAB.<br>
+Gain margin = 0.7<br>
+Phase Margin = -8.8865<br>
+Gain crossover frequency = 3.7565<br>
+Phase crossover frequency = 3.1623<br>
+The system is unstable.<br>
