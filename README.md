@@ -23,13 +23,13 @@ Computer with MATLAB software
 ## Program: 
 ```
 num=[1]
-den=[conv(1,0),conv(1,0.5),conv(1,0.2)]
+den = conv([1 0], conv([0.5 1], [0.2 1]));
 sys=tf(num,den)
-w=logspace(-1,2,1000)
-[mag phase]=bode(sys,w)
-mag=squeeze(mag)
-phase=squeeze(phase)
-theta=deg2rad(phase)
+w=logspace(-1,2,1000);
+[mag phase]=bode(sys,w);
+mag=squeeze(mag);
+phase=squeeze(phase);
+theta=deg2rad(phase);
 polarplot(theta,mag,'LineWidth',1.5)
 [gm pm wpc wgc]=margin(sys)
 if (wpc>wgc)
